@@ -3,15 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<p>Число 1: <input type="text" id="n1"></p>
-	<p>Число 2: <input type="text" id="n2"></p>
-	
-	<button onclick="plus()">Додавання</button>
-	<button onclick="minus()">Віднімання</button>
-	<button onclick="mult()">Множення</button>
-	<button onclick="div()">Ділення</button>
+	<p><span class="p">Число 1:</span><input class="input input2" type="text" id="n1"></p>
+	<p><span class="p p2">Число 2:</span><input class="input input2" type="text" id="n2"></p>
+
+<!--	<div class="buttons">-->
+	<button class="button1"
+	 onclick="plus()">+
+	</button>
+	<button class="button2"
+	 onclick="minus()">−
+	</button>
+<!--	<br>-->
+	<button class="button3"
+	 onclick="mult()">×	
+	</button>
+	<button class="button4" 
+	onclick="div()">÷
+	</button>
+<!--	</div>	-->
 	<hr>
 	<p id="out">Результат: </p>
 	<script src="script.js"></script>
